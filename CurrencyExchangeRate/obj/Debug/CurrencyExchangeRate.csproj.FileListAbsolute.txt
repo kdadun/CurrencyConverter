@@ -1,0 +1,9 @@
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.exe.config
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.exe
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.pdb
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.csprojResolveAssemblyReference.cache
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.Form1.resources
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.Properties.Resources.resources
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.csproj.GenerateResource.Cache
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.exe
+c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.pdb
