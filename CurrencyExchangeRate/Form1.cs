@@ -109,8 +109,7 @@ namespace CurrencyExchangeRate
             XmlNodeList nodeDate;
             doc.Load("http://api.nbp.pl/api/exchangerates/tables/A/?format=xml");
             nodeDate = doc.GetElementsByTagName("EffectiveDate");
-            for (int j = 0; j < nodeDate.Count; j++)
-            {
+          
                 if (radioEnglish.Checked == true)
                 {
                     button1.Text = "Convert ";
@@ -121,7 +120,7 @@ namespace CurrencyExchangeRate
                     label6.Text = "Based on quotations of foreign exchange rates of the NBP from " + nodeDate[0].InnerText;
                     groupBox1.Text = "Choose language";
                 }
-            }
+            
             }
 
         private void radioPolish_CheckedChanged(object sender, EventArgs e)
@@ -130,8 +129,7 @@ namespace CurrencyExchangeRate
             XmlNodeList nodeDate;
             doc.Load("http://api.nbp.pl/api/exchangerates/tables/A/?format=xml");
             nodeDate = doc.GetElementsByTagName("EffectiveDate");
-            for (int j = 0; j < nodeDate.Count; j++)
-            {
+           
                 if (radioPolish.Checked == true)
                 {
                     button1.Text = "Przelicz";
@@ -145,7 +143,7 @@ namespace CurrencyExchangeRate
 
 
                 }
-            }
+            
         }
     }
 }
