@@ -7,3 +7,12 @@ c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\Curren
 c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.csproj.GenerateResource.Cache
 c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.exe
 c:\users\kamil\documents\visual studio 2017\Projects\CurrencyExchangeRate\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.pdb
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.exe.config
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.exe
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\bin\Debug\CurrencyExchangeRate.pdb
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.Form1.resources
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.Properties.Resources.resources
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.csproj.GenerateResource.Cache
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.exe
+C:\Users\Kamil\Desktop\Repozytoria\CurrencyConverter\CurrencyExchangeRate\obj\Debug\CurrencyExchangeRate.pdb

@@ -101,7 +101,9 @@ namespace CurrencyExchangeRate
             textBox1.Clear();
         }
 
-        private void btnLanguage_Click(object sender, EventArgs e)
+       
+
+        private void radioEnglish_CheckedChanged(object sender, EventArgs e)
         {
             XmlDocument doc = new XmlDocument();
             XmlNodeList nodeDate;
@@ -117,20 +119,31 @@ namespace CurrencyExchangeRate
                     label4.Text = "Convert to:";
                     label5.Text = "Value after conversion";
                     label6.Text = "Based on quotations of foreign exchange rates of the NBP from " + nodeDate[0].InnerText;
-                   
+                    groupBox1.Text = "Choose language";
                 }
-                else if (radioPolish.Checked == true)
+            }
+            }
+
+        private void radioPolish_CheckedChanged(object sender, EventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            XmlNodeList nodeDate;
+            doc.Load("http://api.nbp.pl/api/exchangerates/tables/A/?format=xml");
+            nodeDate = doc.GetElementsByTagName("EffectiveDate");
+            for (int j = 0; j < nodeDate.Count; j++)
+            {
+                if (radioPolish.Checked == true)
                 {
                     button1.Text = "Przelicz";
-                    btnLanguage.Text = "Wybierz język";
+                    groupBox1.Text = "Wybierz język";
                     label2.Text = "Wprowadz kwotę pieniędzy:";
                     label3.Text = "Przelicz z:";
                     label4.Text = "Przelicz na:";
                     label5.Text = "Wartoś po konwersji";
                     label6.Text = "Na podstawie notowań kursów walut obcych NBP z " + nodeDate[0].InnerText;
-                    
-                    
-                    
+
+
+
                 }
             }
         }

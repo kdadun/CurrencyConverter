@@ -41,7 +41,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnLanguage = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
@@ -110,6 +109,7 @@
             this.radioEnglish.TabStop = true;
             this.radioEnglish.Text = "English";
             this.radioEnglish.UseVisualStyleBackColor = true;
+            this.radioEnglish.CheckedChanged += new System.EventHandler(this.radioEnglish_CheckedChanged);
             // 
             // radioPolish
             // 
@@ -121,6 +121,7 @@
             this.radioPolish.TabStop = true;
             this.radioPolish.Text = "Polish";
             this.radioPolish.UseVisualStyleBackColor = true;
+            this.radioPolish.CheckedChanged += new System.EventHandler(this.radioPolish_CheckedChanged);
             // 
             // label2
             // 
@@ -160,7 +161,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnLanguage);
             this.groupBox1.Controls.Add(this.radioEnglish);
             this.groupBox1.Controls.Add(this.radioPolish);
             this.groupBox1.Location = new System.Drawing.Point(520, 12);
@@ -168,16 +168,6 @@
             this.groupBox1.Size = new System.Drawing.Size(200, 156);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
-            // 
-            // btnLanguage
-            // 
-            this.btnLanguage.Location = new System.Drawing.Point(30, 94);
-            this.btnLanguage.Name = "btnLanguage";
-            this.btnLanguage.Size = new System.Drawing.Size(123, 35);
-            this.btnLanguage.TabIndex = 13;
-            this.btnLanguage.Text = "Choose language";
-            this.btnLanguage.UseVisualStyleBackColor = true;
-            this.btnLanguage.Click += new System.EventHandler(this.btnLanguage_Click);
             // 
             // label6
             // 
@@ -242,7 +232,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnLanguage;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
